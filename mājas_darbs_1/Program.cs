@@ -13,6 +13,7 @@ namespace mājas_darbs_1
             int rezultāts = Aprēķins();
             Console.WriteLine("c = " + rezultāts);
             Console.ReadLine();
+
             int a = 5;
             int b = 6;
 
@@ -23,7 +24,7 @@ namespace mājas_darbs_1
             Console.WriteLine("a = {0}, b = {1}, c = {2}", a, b, c);
             Console.ReadLine();
         }
-        static int Aprēķins() //funkcija, kas atgriež vērtību
+        static int Aprēķins()
         {
             int a = 5;
             int b = 6;
